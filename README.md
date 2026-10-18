@@ -1,5 +1,10 @@
 # cuaca
 
+[![crates.io](https://img.shields.io/crates/v/cuaca)](https://crates.io/crates/cuaca)
+[![docs.rs](https://img.shields.io/docsrs/cuaca)](https://docs.rs/cuaca)
+[![CI](https://github.com/rafiyq/cuaca-rs/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/rafiyq/cuaca-rs/actions/workflows/test.yaml)
+[![License: MIT](https://img.shields.io/crates/l/MIT)](https://github.com/rafiyq/cuaca-rs/blob/main/LICENSE)
+
 Pure-logic core of the **cuaca** weather toolchain for [BMKG](https://www.bmkg.go.id/) (Indonesian weather agency) data — typed forecast models, [Waybar](https://github.com/Alexays/Waybar) and terminal rendering, icons, EN/ID localization, and forecast statistics.
 
 This crate does **no I/O**: no HTTP, no filesystem, no CLI binaries. Consumers do their own fetching:
